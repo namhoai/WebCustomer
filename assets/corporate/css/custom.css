@@ -1,0 +1,234 @@
+/* here you can put your own css to customize and override the theme */
+.overMenu {
+	background: #60c5aa;
+}
+.header-navigation > ul > li > .dropdown-menu {
+	margin-top: -2px;
+	border-top: none;
+}
+
+.contactUs ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.contactUs li {
+    float: left;
+}
+
+.contactUs li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 28px 28px;
+    text-decoration: none;
+}
+
+.info_address, .info_mail, .info_phoneNumber {
+    display: inline-block;
+}
+
+.contact_Facebook, .contact_Twiter, .contact_Google {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	padding: 11px;
+	border: 1px solid #d8d7cf;
+	border-radius: 50px !important;
+}
+.float-right {
+	float: right !important;
+}
+
+.contactUs li.float-right a {
+	padding : 28px 4px;
+}
+
+.contactUs li.logo a {
+	padding : 28px 0px;
+}
+
+input[type=text] {
+    width: 30px;
+    border-color: transparent;
+    border-radius: 50px !important;
+    background-color: transparent;
+    padding: 5px 0px 5px 30px;
+    margin: 8px 10px;
+    background-image: url('searchicon.png');
+    background-position: 5px 5px;
+    background-size: 21px;
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 20%;
+    background-color: white;
+     background-image: url('searchiconactive.png');
+}
+
+input.middle:focus {
+    outline-width: 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.search {
+	border-left: solid 1px #d8d8d8;
+}
+
+.logo {
+
+}
+
+.carousel-slider .item {
+	min-height: 520px !important;
+}
+
+.opacity5 {
+	opacity: 0.1;
+}
+
+.service-box-heading {
+
+}
+
+.service-box .service-box-heading span {
+
+}
+
+.criteria {
+	margin: auto;
+    height: 120px;
+    padding: 10px 0px;
+}
+.criteria img {
+	width: 100px;
+    height: 100px;
+    animation-delay: 0.3s;
+    -webkit-transition: .4s all;
+    -o-transition: .4s all;
+    transition: .2s all;
+    transform: scale(1); 
+}
+
+.criteria img:hover {
+	transform: scale(1.2); 
+}
+
+/*
+.criteria {
+	text-align: center;
+}*/
+.service-box .service-box-heading {
+	text-align: center;
+}
+
+.service-box .service-box-heading span {
+	margin: 10px 0px;
+}
+.header .mobi-toggler {
+	margin: 10px !important;
+}
+.quote-v1 {
+	padding: 10px 20px;
+}
+.yourService {
+	text-align: center;
+	padding: 30px 0px 50px 0px;
+}
+
+.yourService h2 a {
+	position: relative;
+}
+
+.yourService h2 a:before {
+	content: "";
+    position: absolute;
+    left: 15px;
+    bottom: -5px;
+    width: 0;
+    height: 1px;
+    background: #80d6a3;
+    transition: 0.3s;
+}
+
+.yourService h2 a:hover::before {
+	width: 88%;
+}
+.recent-work h2 a:hover {
+	color: #2ECC71;
+}
+.register {
+	position: absolute;
+    bottom: -15%;
+    left: 35%;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    padding: 7px;
+    font-size: 18px;
+    color: #60c5aa;
+    background: white;
+    border-radius: 50px !important;
+ 	transition: 0.4s;
+ 	animation-delay: 0.3s;
+}
+
+.recent-work-item:hover .register {
+	bottom: 20%;
+	border: 1px solid #60c5aa !important;
+}
+
+.recent-work-item a.recent-work-description:hover {
+	background: #60c5aa !important;
+}
+
+.recent-work .recent-work-item:hover a.recent-work-description {
+	background: #60c5aa !important;	
+}
+
+.blur {
+	display: inline-block;
+	width: 380px;
+	height: 285px;
+	background: rgba(188, 186, 186, 0.53);
+	position: absolute;
+	top: 0px;
+	opacity: 0;
+	transition: 0.4s;
+	animation-delay: 0.3s;
+}
+
+.recent-work-item:hover .blur{
+	opacity: 1;
+}
+
+a.dropdown-toggle {
+	transition: 0.4s !important;
+	animation-delay: 0.3s !important;
+}
+
+.dropdown ul.dropdown-menu {
+	transition: 1.4s !important;
+	animation-delay: 1.7s !important;
+	opacity: 0 !important;
+}
+
+.dropdown:hover ul.dropdown-menu {
+	opacity: 1 !important;
+}
+.btn-transparent:hover {
+	background: #60c5aa !important;
+}
